@@ -5,3 +5,7 @@ console.log("Antonino");
 //se è divisibile per 3 stampo fizz, se per 5 stampo buzz, se è divisibile per 3 e 5 stampo fizzbuzz
 
 for (let index = 1; index <= 100; index++) {}
+//
+let result = "";
+if (index % 3) result += "Fizz";
+if (index % 5) result += "Buzz";
